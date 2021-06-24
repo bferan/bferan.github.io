@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#title-main div {
+    color: white;
+    background-color: black;
+    padding: 0px 5px 0px;
+    margin-bottom: 5px;
+    font-size: 3rem;
+    display: inline-block;
+    line-height: 1;
+}
