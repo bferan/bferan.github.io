@@ -24,10 +24,10 @@ My hobby rendering engine built using C++ and the Vulkan graphics API. Integrate
 Also features a hardware abstraction layer which can smoothly facilitate additional graphics APIs in the future, along with a custom built entity component system for the scene representation.
 
 Working on this project taught me invaluable skills in GPU programming, performance and debugging. 
-\
-\
-\
-\
+<br>
+<br>
+<br>
+
 ## Game Jam Entries
 
 Below are multiple 48h-72h game jam entries I collaborated remotely with a friend (https://itch.io/profile/british-banana) to build. They are each programmed in C# using Unity.
@@ -43,28 +43,30 @@ All assets (besides the music) were created during the Jam.
 
 <video src="https://user-images.githubusercontent.com/25774113/137463717-f7aa670b-c5c9-4135-b627-3b1383001292.mov" muted="muted" autoplay="autoplay" loop="loop" style="max-width: 100%;">
 </video>
-\
-\
-\
+<br>
+<br>
+<br>
+
 ### Forgetful Farkle
 
 Our entry to the 72h Indie Tales Jam with theme "One Room". We created a top-down wave clear game which uses the room as a constraint. You unlock tetris-like tiles after each wave which you place down to grant buffs and damage enemies.
 
 <video src="https://user-images.githubusercontent.com/25774113/137463880-cccab160-f28d-4dc6-91ab-34f28ba5a21d.mov" muted="muted" autoplay="autoplay" loop="loop" style="max-width: 100%;">
 </video>
-\
-\
-\
+<br>
+<br>
+<br>
+
 ### Merry Malfunction
 
 A game jam entry to the 48h Yogscast Game Jam (2019) with the theme "Giving". We created an infinite side-scrolling game in Unity where you run, dodge and duck under obstacles. The level backgrounds are generated at runtime along with a random sequence of obstacles which scale with difficulty as the game progresses.
 
 <video src="https://user-images.githubusercontent.com/25774113/137463851-b8dc74e6-4502-4cc1-979b-b15602487225.mov" muted="muted" autoplay="autoplay" loop="loop" style="max-width: 100%;">
-</video>
-\
-\
-\
-\
+</video><br>
+<br>
+<br>
+<br>
+
 ## Unity Project - University Coursework
 
 A wave-based tower defense game I created in a team of two for a university project. Involved creating custom shaders, integrating the navmesh system and designing UI. We gathered user feedback during development to gauge the intuitiveness of the controls, UI and overall gameplay feel and adjusted them accordingly.
