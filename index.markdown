@@ -30,9 +30,9 @@ Working on this project taught me invaluable skills in GPU programming, performa
 
 ## Game Jam Entries
 
-Below are multiple 48h-72h game jam entries I collaborated remotely with a friend (https://itch.io/profile/british-banana) to build. They are each programmed in C# using Unity.
+Below are multiple 48h-72h game jam entries I collaborated remotely with a [friend](https://itch.io/profile/british-banana) to build. They are each programmed in C# using Unity.
 
-For playable versions, see https://doxume.itch.io/
+For playable versions, see [https://doxume.itch.io/](https://doxume.itch.io/)
 
 ### Hyper Link
 A game jam entry we created for the 72h ScoreSpace Jam #14 with theme "Merging" and optional challenge "Time trial". We built a top-down spaceship shooter where you shoot to meld as many other ships onto you as possible within a given time, growing your firepower as you do.
@@ -45,7 +45,6 @@ All assets (besides the music) were created during the Jam.
 </video>
 <br>
 <br>
-<br>
 
 ### Forgetful Farkle
 
@@ -53,7 +52,6 @@ Our entry to the 72h Indie Tales Jam with theme "One Room". We created a top-dow
 
 <video src="https://user-images.githubusercontent.com/25774113/137463880-cccab160-f28d-4dc6-91ab-34f28ba5a21d.mov" muted="muted" autoplay="autoplay" loop="loop" style="max-width: 100%;">
 </video>
-<br>
 <br>
 <br>
 
