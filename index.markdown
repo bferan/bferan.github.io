@@ -10,7 +10,7 @@ Hi, I'm Breon. I'm a developer with a passion for computer graphics, game engine
 
 ## Lucent Renderer
 
-https://github.com/bferan/lucent
+[https://github.com/bferan/lucent](https://github.com/bferan/lucent)
 
 My hobby rendering engine built using C++ and the Vulkan graphics API. Integrates many state-of-the-art techniques in realtime computer graphics including:
 
@@ -38,19 +38,19 @@ Displays a persistent leaderboard ingame by connecting to Microsoft's PlayFab AP
 
 All assets (besides the music) were created during the Jam.
 
-https://giant.gfycat.com/PiercingCriminalIceblueredtopzebra.mp4
+https://user-images.githubusercontent.com/25774113/137463717-f7aa670b-c5c9-4135-b627-3b1383001292.mov
 
 ### Forgetful Farkle
 
 Our entry to the 72h Indie Tales Jam with theme "One Room". We created a top-down wave clear game which uses the room as a constraint. You unlock tetris-like tiles after each wave which you place down to grant buffs and damage enemies.
 
-https://giant.gfycat.com/EducatedMenacingDachshund.mp4
+https://user-images.githubusercontent.com/25774113/137463880-cccab160-f28d-4dc6-91ab-34f28ba5a21d.mov
 
 ### Merry Malfunction
 
 A game jam entry to the 48h Yogscast Game Jam (2019) with the theme "Giving". We created an infinite side-scrolling game in Unity where you run, dodge and duck under obstacles. The level backgrounds are generated at runtime along with a random sequence of obstacles which scale with difficulty as the game progresses.
 
-https://giant.gfycat.com/ZestyBareAmericanwarmblood.mp4
+https://user-images.githubusercontent.com/25774113/137463851-b8dc74e6-4502-4cc1-979b-b15602487225.mov
 
 ## Unity Project - University Coursework
 
