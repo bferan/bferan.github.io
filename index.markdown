@@ -2,31 +2,58 @@
 layout: default
 ---
 
-About me: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Hi, I'm Breon. I'm a developer with a passion for computer graphics, game engines and data science.
 
 ---
 
 # Projects
 
-## Project #1
+## Lucent Renderer
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet dictum ex, vel porttitor magna elementum eget. Fusce pharetra erat vel odio porta aliquam. Vivamus facilisis tellus maximus accumsan cursus. Nam et lacus ullamcorper mi dignissim malesuada. Integer rhoncus diam euismod, commodo mi vel, congue purus. Morbi eu semper felis, nec lacinia turpis. Nunc mauris nisl, sollicitudin eget gravida quis, rhoncus vitae nibh. Sed sodales convallis ipsum, ac fringilla lorem convallis in. Donec aliquam porta ipsum, ut facilisis tellus luctus sit amet. Aliquam neque libero, aliquet nec rutrum at, fringilla et velit. Ut vel dignissim tortor, sit amet porttitor erat. Nam dolor tellus, rutrum sagittis justo cursus, rutrum ultricies mi. Quisque ultrices faucibus tristique. Etiam non ex eu nisi convallis viverra. Aenean orci orci, pulvinar nec mattis sit amet, commodo sit amet purus. Sed id metus orci.
+https://github.com/bferan/lucent
 
-Cras ac turpis nec neque auctor vehicula at ut eros. Praesent ante felis, aliquet id tempus id, dapibus eget tellus. Nulla consequat feugiat augue quis scelerisque. Aliquam sem dolor, congue non libero vitae, gravida lacinia turpis. Nullam laoreet, sem sit amet consequat iaculis, mauris quam feugiat mauris, sit amet ultricies dui arcu eu diam. Quisque quis eros vulputate, accumsan lacus id, pellentesque erat. Donec gravida, dui sed posuere hendrerit, massa sem facilisis ex, non venenatis ante enim quis dui. Integer sed ante sit amet erat iaculis ultricies. Sed vel purus quis tortor feugiat laoreet. Nulla ultricies rhoncus euismod. Morbi auctor elit gravida feugiat fringilla. Etiam sed molestie sem. Fusce viverra diam id purus rhoncus viverra. Morbi hendrerit nulla vel eleifend tincidunt. Nullam sit amet malesuada libero. Nullam id nisl et mi elementum iaculis in et quam.
+My hobby rendering engine built using C++ and the Vulkan graphics API. Integrates many state-of-the-art techniques in realtime computer graphics including:
 
-## Project #2
+- Physically based shading
+- Image-based environment lighting
+- Cascaded, moment shadow mapping
+- Screen space reflections
+- Screen space ground truth ambient occlusion
+- Postprocess passes: HDR tonemapping, vignette
 
-![Cat](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+Also features a hardware abstraction layer which can smoothly facilitate additional graphics APIs in the future, along with a custom built entity component system for the scene representation.
 
-## Project #3
+Working on this project taught me invaluable skills in GPU programming, performance and debugging. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet dictum ex, vel porttitor magna elementum eget. Fusce pharetra erat vel odio porta aliquam. Vivamus facilisis tellus maximus accumsan cursus. Nam et lacus ullamcorper mi dignissim malesuada. Integer rhoncus diam euismod, commodo mi vel, congue purus. Morbi eu semper felis, nec lacinia turpis. Nunc mauris nisl, sollicitudin eget gravida quis, rhoncus vitae nibh. Sed sodales convallis ipsum, ac fringilla lorem convallis in. Donec aliquam porta ipsum, ut facilisis tellus luctus sit amet. Aliquam neque libero, aliquet nec rutrum at, fringilla et velit. Ut vel dignissim tortor, sit amet porttitor erat. Nam dolor tellus, rutrum sagittis justo cursus, rutrum ultricies mi. Quisque ultrices faucibus tristique. Etiam non ex eu nisi convallis viverra. Aenean orci orci, pulvinar nec mattis sit amet, commodo sit amet purus. Sed id metus orci.
+## Game Jam Entries
 
-Cras ac turpis nec neque auctor vehicula at ut eros. Praesent ante felis, aliquet id tempus id, dapibus eget tellus. Nulla consequat feugiat augue quis scelerisque. Aliquam sem dolor, congue non libero vitae, gravida lacinia turpis. Nullam laoreet, sem sit amet consequat iaculis, mauris quam feugiat mauris, sit amet ultricies dui arcu eu diam. Quisque quis eros vulputate, accumsan lacus id, pellentesque erat. Donec gravida, dui sed posuere hendrerit, massa sem facilisis ex, non venenatis ante enim quis dui. Integer sed ante sit amet erat iaculis ultricies. Sed vel purus quis tortor feugiat laoreet. Nulla ultricies rhoncus euismod. Morbi auctor elit gravida feugiat fringilla. Etiam sed molestie sem. Fusce viverra diam id purus rhoncus viverra. Morbi hendrerit nulla vel eleifend tincidunt. Nullam sit amet malesuada libero. Nullam id nisl et mi elementum iaculis in et quam.
+Below are multiple 48h-72h game jam entries I collaborated remotely with a friend (https://itch.io/profile/british-banana) to build. They are each programmed in C# using Unity.
 
-## Project #4
+For playable versions, see https://doxume.itch.io/
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet dictum ex, vel porttitor magna elementum eget. Fusce pharetra erat vel odio porta aliquam. Vivamus facilisis tellus maximus accumsan cursus. Nam et lacus ullamcorper mi dignissim malesuada. Integer rhoncus diam euismod, commodo mi vel, congue purus. Morbi eu semper felis, nec lacinia turpis. Nunc mauris nisl, sollicitudin eget gravida quis, rhoncus vitae nibh. Sed sodales convallis ipsum, ac fringilla lorem convallis in. Donec aliquam porta ipsum, ut facilisis tellus luctus sit amet. Aliquam neque libero, aliquet nec rutrum at, fringilla et velit. Ut vel dignissim tortor, sit amet porttitor erat. Nam dolor tellus, rutrum sagittis justo cursus, rutrum ultricies mi. Quisque ultrices faucibus tristique. Etiam non ex eu nisi convallis viverra. Aenean orci orci, pulvinar nec mattis sit amet, commodo sit amet purus. Sed id metus orci.
+### Hyper Link
+A game jam entry we created for the 72h ScoreSpace Jam #14 with theme "Merging" and optional challenge "Time trial". We built a top-down spaceship shooter where you shoot to meld as many other ships onto you as possible within a given time, growing your firepower as you do.
 
-Cras ac turpis nec neque auctor vehicula at ut eros. Praesent ante felis, aliquet id tempus id, dapibus eget tellus. Nulla consequat feugiat augue quis scelerisque. Aliquam sem dolor, congue non libero vitae, gravida lacinia turpis. Nullam laoreet, sem sit amet consequat iaculis, mauris quam feugiat mauris, sit amet ultricies dui arcu eu diam. Quisque quis eros vulputate, accumsan lacus id, pellentesque erat. Donec gravida, dui sed posuere hendrerit, massa sem facilisis ex, non venenatis ante enim quis dui. Integer sed ante sit amet erat iaculis ultricies. Sed vel purus quis tortor feugiat laoreet. Nulla ultricies rhoncus euismod. Morbi auctor elit gravida feugiat fringilla. Etiam sed molestie sem. Fusce viverra diam id purus rhoncus viverra. Morbi hendrerit nulla vel eleifend tincidunt. Nullam sit amet malesuada libero. Nullam id nisl et mi elementum iaculis in et quam.
+Displays a persistent leaderboard ingame by connecting to Microsoft's PlayFab API. 
 
+All assets (besides the music) were created during the Jam.
+
+https://giant.gfycat.com/PiercingCriminalIceblueredtopzebra.mp4
+
+### Forgetful Farkle
+
+Our entry to the 72h Indie Tales Jam with theme "One Room". We created a top-down wave clear game which uses the room as a constraint. You unlock tetris-like tiles after each wave which you place down to grant buffs and damage enemies.
+
+https://giant.gfycat.com/EducatedMenacingDachshund.mp4
+
+### Merry Malfunction
+
+A game jam entry to the 48h Yogscast Game Jam (2019) with the theme "Giving". We created an infinite side-scrolling game in Unity where you run, dodge and duck under obstacles. The level backgrounds are generated at runtime along with a random sequence of obstacles which scale with difficulty as the game progresses.
+
+https://giant.gfycat.com/ZestyBareAmericanwarmblood.mp4
+
+## Unity Project - University Coursework
+
+A wave-based tower defense game I created in a team of two for a university project. Involved creating custom shaders, integrating the navmesh system and designing UI. We gathered user feedback during development to gauge the intuitiveness of the controls, UI and overall gameplay feel and adjusted them accordingly.
+
+[![COMP30019 Project 2](https://res.cloudinary.com/marcomontalbano/image/upload/v1634278160/video_to_markdown/images/youtube--84G4v8rMfAA-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=84G4v8rMfAA "COMP30019 Project 2")
