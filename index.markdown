@@ -24,6 +24,12 @@ My hobby rendering engine built using C++ and the Vulkan graphics API. Integrate
 Also features a hardware abstraction layer which can smoothly facilitate additional graphics APIs in the future, along with a custom built entity component system for the scene representation.
 
 Working on this project taught me invaluable skills in GPU programming, performance and debugging. 
+
+#### Screenshots
+![](assets/img/LucentBustThumb.png)
+![](assets/img/LucentCorridorThumb.png)
+![](assets/img/LucentRobotThumb.png)
+
 <br>
 <br>
 <br>
