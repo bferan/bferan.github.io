@@ -26,9 +26,9 @@ Also features a hardware abstraction layer which can smoothly facilitate additio
 Working on this project taught me invaluable skills in GPU programming, performance and debugging. 
 
 #### Screenshots
-![](assets/img/LucentBustThumb.png)
-![](assets/img/LucentCorridorThumb.png)
-![](assets/img/LucentRobotThumb.png)
+![Bust](https://raw.githubusercontent.com/bferan/bferan.github.io/master/assets/img/LucentBustThumb.png)
+![Hall](https://raw.githubusercontent.com/bferan/bferan.github.io/master/assets/img/LucentCorridorThumb.png)
+![Robot](https://raw.githubusercontent.com/bferan/bferan.github.io/master/assets/img/LucentRobotThumb.png)
 
 <br>
 <br>
