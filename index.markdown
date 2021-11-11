@@ -19,7 +19,7 @@ My hobby rendering engine built using C++ and the Vulkan graphics API. Integrate
 - Cascaded, moment shadow mapping
 - Screen space reflections
 - Screen space ground truth ambient occlusion
-- Postprocess passes: HDR tonemapping, vignette
+- Postprocess passes: HDR tonemapping, vignette and bloom
 
 Also features a hardware abstraction layer which can smoothly facilitate additional graphics APIs in the future, along with a custom built entity component system for the scene representation.
 
