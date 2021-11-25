@@ -1,28 +1,91 @@
+### Site Settings ###
 title: Breon Feran
-logo_title: "Breon<br/>Feran"
-email: breon.feran@gmail.com
-logo: /assets/img/breon.png
 description: >-
-  Welcome to my profile website!
-  Here you can find some of the projects I've done and ones I'm currently working on.
+  Welcome to my profile website! Here you can find some of the projects I've done and ones I'm currently working on.
+
 baseurl: ""
-url: ""
-github_username:  bferan
-show_downloads: false
+repository: bferan/bferan.github.io
+remote_theme: YoussefRaafatNasry/portfolYOU
+open_new_tab: false
 
-# Build settings
-theme: jekyll-theme-minimal
+
+### Plugins ###
 plugins:
-  - jekyll-feed
+  - jemoji
 
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+### Navbar Settings ###
+nav_exclude: # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - pages/blog.html
+
+
+### Author Info ###
+author:
+  name: Breon Feran
+  image:
+  #behance: your_username
+  # dribbble          : your_username
+  email: breon.feran@gmail.com
+  #facebook: your_username
+  github: bferan
+  # gitlab            : your_username
+  # instagram         : your_username
+  # kaggle            : your_username
+  # linkedin: your_username
+  # medium: your_username
+  # soundcloud        : your_username
+  # spotify           : your_username
+  # stackoverflow     : your_user_id
+  # tumblr            : your_username.tumblr.com
+  # twitch            : your_username
+  # twitter: your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
+# keybase           : your_username
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+
+### Disqus ###
+disqus:
+  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+
+### Exclude from processing ###
+exclude:
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
