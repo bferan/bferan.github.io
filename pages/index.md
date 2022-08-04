@@ -7,7 +7,7 @@ permalink: /
 
 # **About Me**
 
-Hi, I’m Breon. I’m a developer with a passion for computer graphics, game engines and data science. 
+Hi, I’m Breon. I’m a software engineer with a passion for data science and visualisation. 
 
 
 Welcome to my profile website! Here you can find some projects I've done and ones I'm currently working on.
